@@ -5,4 +5,4 @@
   Now you can use the demo on this url "http://localhost:3000/"
 
 # Technology
-  I used ReactJS for this assignment.
+  I used ReactJS and redux for this assignment.
