@@ -1,0 +1,67 @@
+.money-body form .form-group {
+    width: 100%;
+}
+
+.make-box {
+    background-color: #fff;
+    width           : 20%;
+    padding         : 30px;
+    position        : relative;
+    left            : 8%;
+    top             : 12%;
+    border-radius   : 5px;
+    display         : inline-block;
+}
+
+.money-body {
+    padding         : 20px;
+    background-color: #fff;
+}
+
+.custom-icon i {
+    color    : #b3d8de;
+    font-size: 20px;
+}
+
+button.submit {
+    background-color: #ee7033;
+    width           : 200px;
+    float           : right;
+    outline         : 0 !important;
+}
+
+input.custom-form-control:focus {
+    outline: 0;
+}
+
+input.custom-form-control {
+    width        : 100%;
+    border       : 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.header-custom-inner>img {
+    width : 100%;
+    height: auto;
+}
+
+@media all and (min-width: 320px) and (max-width: 699px) {
+    section.wrap-content {
+        grid-template-columns: auto;
+    }
+
+    .form-group.submit-button {
+        filter         : fl;
+        display        : flex;
+        justify-content: center;
+        margin         : 0;
+    }
+
+    .money-body {
+        margin-bottom: 20px;
+    }
+}
