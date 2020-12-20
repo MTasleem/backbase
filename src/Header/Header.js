@@ -20,7 +20,9 @@ class Header extends Component {
     return (
       <div className="header-custom">
         <div className="header-custom-inner">
-          <img src={require('../assets/logo.jpg').default} />
+          <div className="wrap-img">
+            <img src={require('../assets/logo.jpg').default} />
+          </div>
         </div>
       </div>
     );
